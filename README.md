@@ -1,3 +1,32 @@
-Pentru analiză am descărcat ec2_cpu_utilization_5f5533.csv din Numenta Anomaly Benchmark(NAB) cu date reale de la Amazon AWS.
+# Sistem de monitorizare date de telemetrie IoT - stocare SQL - analiză Python - rapoarte Power BI
 
-Prezintă coloana timestamp (momentul măsurarii) și value ( CPU - Central Processing Unit utilizat) . Proiectul va avea 3 componente: 1. Stocare (Backend): Baza de date SQL 2. Procesare (Analytics Engine): Python 3. Vizualizare (Frontend/reporting): Power BI
+Acest proiect implementează un sistem complet de monitorizare și analiză a datelor IoT, având ca obiectiv detectarea anomaliilor în utilizarea CPU pe o instanță EC2. Proiectul folosește date reale din setul NAB (Numenta Anomaly Benchmark) și integrează trei componente majore: stocare SQL, analiză Python și vizualizare Power BI.
+
+Datele utilizate provin din fișierul ec2_cpu_utilization_5f5533.csv, care conține valori reale de telemetrie AWS, cu două coloane principale: timestamp și value (utilizarea CPU). Acestea sunt procesate pentru a identifica comportamente neobișnuite, potențiale incidente sau variații semnificative în performanța sistemului.
+
+Proiectul este structurat în trei părți:
+
+### 1. Stocare (Backend – SQL)
+Importul și organizarea datelor într-o bază de date SQL.
+
+Pregătirea datelor pentru interogări eficiente și analize ulterioare.
+
+### 2. Procesare și analiză (Python – Jupyter Notebook)
+Curățarea și preprocesarea datelor.
+
+Analiză exploratorie (tendințe, distribuții, variații).
+
+Implementarea logicii de detectare a anomaliilor.
+
+Vizualizări pentru evidențierea comportamentelor anormale.
+
+Totul este realizat într-un notebook Jupyter pentru transparență și replicabilitate.
+
+### 3. Vizualizare și raportare (Power BI)
+Dashboard interactiv care prezintă evoluția utilizării CPU.
+
+Evidențierea anomaliilor detectate.
+
+Grafică intuitivă pentru interpretarea rapidă a datelor.
+
+Acest proiect demonstrează un flux complet de tip IoT → SQL → Python → Power BI, fiind potrivit atât pentru scopuri educaționale, cât și pentru scenarii reale de monitorizare a sistemelor.

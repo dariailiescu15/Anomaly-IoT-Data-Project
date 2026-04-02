@@ -29,9 +29,11 @@ Evidențierea anomaliilor detectate.
 
 Grafică intuitivă pentru interpretarea rapidă a datelor.
 
+Acest proiect demonstrează un flux complet de tip IoT → SQL → Python → Power BI, fiind potrivit atât pentru scopuri educaționale, cât și pentru scenarii reale de monitorizare a sistemelor.
+
+
 ## © 2024 — Project created by Daria-Gabriela Iliescu.
 ## All rights reserved. Use, distribution, or modification of this code or associated materials is permitted only with proper attribution to the author.
 
 
 
-Acest proiect demonstrează un flux complet de tip IoT → SQL → Python → Power BI, fiind potrivit atât pentru scopuri educaționale, cât și pentru scenarii reale de monitorizare a sistemelor.

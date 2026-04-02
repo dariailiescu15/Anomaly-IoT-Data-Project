@@ -6,12 +6,12 @@ Datele utilizate provin din fișierul ec2_cpu_utilization_5f5533.csv, care conț
 
 Proiectul este structurat în trei părți:
 
-### 1. Stocare (Backend – SQL)
+## 1. Stocare (Backend – SQL)
 Importul și organizarea datelor într-o bază de date SQL.
 
 Pregătirea datelor pentru interogări eficiente și analize ulterioare.
 
-### 2. Procesare și analiză (Python – Jupyter Notebook)
+## 2. Procesare și analiză (Python – Jupyter Notebook)
 Curățarea și preprocesarea datelor.
 
 Analiză exploratorie (tendințe, distribuții, variații).
@@ -22,7 +22,7 @@ Vizualizări pentru evidențierea comportamentelor anormale.
 
 Totul este realizat într-un notebook Jupyter pentru transparență și replicabilitate.
 
-### 3. Vizualizare și raportare (Power BI)
+## 3. Vizualizare și raportare (Power BI)
 Dashboard interactiv care prezintă evoluția utilizării CPU.
 
 Evidențierea anomaliilor detectate.
